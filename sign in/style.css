@@ -1,0 +1,184 @@
+body
+{
+
+    margin: 0;
+    padding: 0;
+    background: url("airplane1.jpg");
+    background-size: cover;
+    height: 130vh;
+    font-family: sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background:black;
+    border-radius: 1px solid #fff;
+
+
+}
+nav   .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 20px;
+    font: weight 100px;; 
+    text-transform: uppercase;
+    color: white;
+    
+
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+nav ul li a{
+    list-style-type: none;
+    display:inline-flex;
+    transition:0.5s all ;
+}
+nav   ul li a{ 
+    
+    color: #fff;
+    padding: 30px;
+    text-decoration: none;
+    
+
+}
+nav  ul li a:hover{
+    height: 5px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: blue;
+
+
+    
+}
+
+
+.loginBox
+{
+    position: absolute;
+    top: 62%;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5) ;
+}
+h2
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color:blue;
+    text-align: center;
+}
+.loginBox p
+{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.loginBox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+ .loginBox input[type="text"], .loginBox input[type="password"]
+ {
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color: #c0c0c0;
+     font-size: 16px;
+ }
+
+ .loginBox input[type="submit"]
+ {
+     border: none;
+     outline: none;
+     height: 40px;
+     color: #fff;
+     font-size: 16px;
+     background: rgb(255,38,126);
+     border-radius: 20px;
+ }
+ .loginBox input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+::placeholder
+{
+    color: rgba(255,255,255,0.5);
+}
+
+.user
+{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top:calc(-100px/2);
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.loginBox a
+{
+    color:blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
